@@ -26,4 +26,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)copyButtonPressed:(UIButton *)sender {
+    
+    NSString *textViewDataString = self.textFieldData.text;
+    
+    self.textLabel.text = textViewDataString;
+}
+
+// This is what closes the soft keyboard when "return" is pushed.
+// Activated by clicking the Text Field and going to connections, then dragging "Did End On Exit"
+- (IBAction)textFieldDoneEditing:(id)sender {
+    [sender resignFirstResponder];
+}
+
 @end

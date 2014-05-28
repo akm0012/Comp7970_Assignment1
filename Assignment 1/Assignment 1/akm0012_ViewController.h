@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface akm0012_ViewController : UIViewController
+- (IBAction)copyButtonPressed:(UIButton *)sender;
+- (IBAction)textFieldDoneEditing:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (weak, nonatomic) IBOutlet UITextField *textFieldData;
 
 @end
