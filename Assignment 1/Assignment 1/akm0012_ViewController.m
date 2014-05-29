@@ -1,6 +1,8 @@
+//  Author: Andrew K. Marshall
+//  Last Revision: 5/9/14
+//  COMP 7970: Assignment 1
 //
 //  akm0012_ViewController.m
-//  Assignment 1
 //
 //  Created by Andrew Marshall on 5/27/14.
 //  Copyright (c) 2014 Comp_7970_akm0012. All rights reserved.
